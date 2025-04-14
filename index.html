@@ -10,16 +10,20 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#" class="logo">MANSOOR</a>
-        <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+
+    <header>
+        <a href="#" class="logo">Mansoor.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">Resume</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
     <div class="bars-animation">
         <div class="bar" style="--i:6;"></div>
@@ -30,8 +34,9 @@
         <div class="bar" style="--i:1;"></div>
     </div>
 
+    <!-- home section -->
     <section class="home">
-        <div class="home-info">
+        <div class="home-details">
             <h1>D Mansoor Basha</h1>
             <h2>I am
                 <span style="--i:4;" data-text="Solution Architect">Solution Architect</span>
@@ -54,11 +59,98 @@
         <div class="home-img">
             <div class="img-box">
                 <div class="img-item">
-                    <img src="images/image.png">
+                    <img src="images/home.png">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- service section -->
+     <section class="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="icons">
+                    <i class='bx bxl-aws'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>AWS</h3>
+                <p>Amazon Web Services (AWS) is a cloud computing platform that offers services for building and running applications. AWS provides tools for compute power, storage, databases, content delivery, and more. </p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class='bx bx-cog'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>DevOps</h3>
+                <p>DevOps is a software development methodology that combines development and operations to improve collaboration and software delivery.</p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class='bx bxl-python'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Python</h3>
+                <p>Python is a high-level, general-purpose, interpreted, object-oriented, and dynamic programming language widely used for various applications, known for its readability and versatility. </p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Web development involves creating, building, and maintaining websites and web applications, encompassing tasks like coding, design, and database management, using languages like HTML, CSS, and JavaScript. </p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class='bx bx-desktop'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Linux</h3>
+                <p>Linux is a free, open-source, Unix-like operating system kernel, widely used for servers, desktops, and embedded systems, known for its flexibility, security, and customization options. </p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class='bx bx-camera'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>Photography is an art form that involves capturing light with a camera to create a visual representation of a moment or scene.</p>
+            </div>
+        </div>
+
+     </section>
+
+     <!-- resume section-->
+      <section class="resume active">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me</h2>
+                <p class="desc">My Name is Mansoor, studying MCA and I have skills to improve Organisation.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-details experience">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas vero laboriosam illum esse, rerum soluta eos ratione quos eaque.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+    
+
 
 </body>
 </html>
