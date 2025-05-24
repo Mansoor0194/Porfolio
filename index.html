@@ -1,42 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansoor Basha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Personal Portfolio Website </title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-
 <body>
-
-    <header class="active">
-        <a href="#" class="logo">Mansoor.</a>
-
-        <i class='bx bx-menu' id="menu-icon"></i>
-
+    <header>
+        <a href="#home" class="logo">Mansoor.</a>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Skills</a>
-            <a href="#">Resume</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- bars background -->
-    <div class="bars-box active">
-        <div class="bars" style="--i:6;"></div>
-        <div class="bars" style="--i:5;"></div>
-        <div class="bars" style="--i:4;"></div>
-        <div class="bars" style="--i:3;"></div>
-        <div class="bars" style="--i:2;"></div>
-        <div class="bars" style="--i:1;"></div>
-    </div>
-
-    <!-- home section -->
-    <section class="home active">
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <!-- Original Home Section HTML from your file -->
         <div class="home-details">
             <h1>D Mansoor Basha</h1>
             <h2>I am
@@ -67,8 +57,9 @@
         </div>
     </section>
 
-    <!-- service section -->
-    <section class="skills">
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <!-- Original Skills Section HTML from your file -->
         <h2 class="heading">My <span>Skills</span></h2>
         <div class="skills-container">
             <div class="skills-box">
@@ -130,12 +121,12 @@
                 <p>Photography is an art form that involves capturing light with a camera to create a visual representation of a moment or scene.</p>
             </div>
         </div>
+    </section>
 
-     </section>
-
-     <!-- resume section -->
-      <section class="resume">
-        <div class="resume-container">
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <!-- Original Resume Section HTML from your file -->
+         <div class="resume-container">
             <div class="resume-box">
                 <h2>Why Hire Me</h2>
                 <p class="desc">You should hire me because I have strong skills in DevOps, AWS, Linux, and Python.
@@ -321,9 +312,10 @@
         </div>
     </section>
 
-    <!-- Project Section-->
-    <section class="project">
-        <h2 class="heading">Latest <span>Projects</span></h2>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <!-- Original Projects Section HTML from your file -->
+         <h2 class="heading">Latest <span>Projects</span></h2>
         <div class="project-container">
             <div class="project-box">
                 <div class="project-details active">
@@ -389,9 +381,10 @@
         </div>
     </section>
 
-    <!-- contact section -->
-    <section class="contact">
-        <div class="contact-container">
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <!-- Original Contact Section HTML from your file -->
+         <div class="contact-container">
             <div class="contact-box">
                 <h2>Let's Work Together</h2>
                 <p class="desc">Working Together Emphasizes ideas, Teamwork, Efficient Performance effectively.</p>
@@ -434,13 +427,6 @@
         </div>
     </section>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-
-
-
-    
-
-
+    <script src="script.js"></script>
 </body>
 </html>
