@@ -820,16 +820,4 @@ section::before {
   background: linear-gradient(var(--main-color), #b1ff85);
 }
 
-/* Alternate Two Background Colors for Sections */
-#home,
-#resume,
-#contact {
-  background: #1f242d; /* Dark Blue-Gray */
-}
-
-#skills,
-#projects {
-  background: #2b2f3a; /* Dark Gray */
-}
-
 
