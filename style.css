@@ -571,7 +571,8 @@ section::before {
     margin: .8rem 0 2rem;
 }
 
-.project-box p {
+
+.project-box p, ul {
     font-size: 1.6rem;
 }
 
